@@ -13,6 +13,8 @@
 		1F00B4911FC2455D00D123C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F00B48F1FC2455D00D123C9 /* Main.storyboard */; };
 		1F00B49D1FC2455D00D123C9 /* Bill_SpinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00B49C1FC2455D00D123C9 /* Bill_SpinTests.swift */; };
 		1F00B4A81FC2455D00D123C9 /* Bill_SpinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00B4A71FC2455D00D123C9 /* Bill_SpinUITests.swift */; };
+		1FE3897F1FC250DC00C09CF2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1FE3897E1FC250DC00C09CF2 /* .gitignore */; };
+		A9B4EFC10466CED294574484 /* Pods_Bill_Spin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2991CE5014F7D5F88A221AE /* Pods_Bill_Spin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,11 @@
 		1F00B4A31FC2455D00D123C9 /* Bill SpinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bill SpinUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F00B4A71FC2455D00D123C9 /* Bill_SpinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill_SpinUITests.swift; sourceTree = "<group>"; };
 		1F00B4A91FC2455E00D123C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F00B4B61FC24AC400D123C9 /* Charts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Charts; path = Pods/Charts; sourceTree = "<group>"; };
+		1FE3897E1FC250DC00C09CF2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A2991CE5014F7D5F88A221AE /* Pods_Bill_Spin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bill_Spin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A994DBE1E0EEE3FCE21E2ECE /* Pods-Bill Spin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bill Spin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bill Spin/Pods-Bill Spin.debug.xcconfig"; sourceTree = "<group>"; };
+		E8ADD5910211BD3A136D1DA2 /* Pods-Bill Spin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bill Spin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bill Spin/Pods-Bill Spin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9B4EFC10466CED294574484 /* Pods_Bill_Spin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,10 +84,13 @@
 		1F00B47D1FC2455D00D123C9 = {
 			isa = PBXGroup;
 			children = (
+				1FE3897E1FC250DC00C09CF2 /* .gitignore */,
 				1F00B4881FC2455D00D123C9 /* Bill Spin */,
 				1F00B49B1FC2455D00D123C9 /* Bill SpinTests */,
 				1F00B4A61FC2455D00D123C9 /* Bill SpinUITests */,
 				1F00B4871FC2455D00D123C9 /* Products */,
+				1F00B4B51FC24AC300D123C9 /* Frameworks */,
+				B5C5449738576611275800D3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +135,24 @@
 			path = "Bill SpinUITests";
 			sourceTree = "<group>";
 		};
+		1F00B4B51FC24AC300D123C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F00B4B61FC24AC400D123C9 /* Charts */,
+				A2991CE5014F7D5F88A221AE /* Pods_Bill_Spin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5C5449738576611275800D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A994DBE1E0EEE3FCE21E2ECE /* Pods-Bill Spin.debug.xcconfig */,
+				E8ADD5910211BD3A136D1DA2 /* Pods-Bill Spin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F00B4AC1FC2455E00D123C9 /* Build configuration list for PBXNativeTarget "Bill Spin" */;
 			buildPhases = (
+				76C34603375B29B400724020 /* [CP] Check Pods Manifest.lock */,
 				1F00B4821FC2455D00D123C9 /* Sources */,
 				1F00B4831FC2455D00D123C9 /* Frameworks */,
 				1F00B4841FC2455D00D123C9 /* Resources */,
+				09C8AE6DE4E689ADAB955541 /* [CP] Embed Pods Frameworks */,
+				E924BE39D30D44E58B16BF8F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F00B48E1FC2455D00D123C9 /* Assets.xcassets in Resources */,
+				1FE3897F1FC250DC00C09CF2 /* .gitignore in Resources */,
 				1F00B4911FC2455D00D123C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +284,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09C8AE6DE4E689ADAB955541 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Bill Spin/Pods-Bill Spin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bill Spin/Pods-Bill Spin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76C34603375B29B400724020 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bill Spin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E924BE39D30D44E58B16BF8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bill Spin/Pods-Bill Spin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1F00B4821FC2455D00D123C9 /* Sources */ = {
@@ -413,6 +500,7 @@
 		};
 		1F00B4AD1FC2455E00D123C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A994DBE1E0EEE3FCE21E2ECE /* Pods-Bill Spin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Bill Spin/Bill_Spin.entitlements";
@@ -429,6 +517,7 @@
 		};
 		1F00B4AE1FC2455E00D123C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8ADD5910211BD3A136D1DA2 /* Pods-Bill Spin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Bill Spin/Bill_Spin.entitlements";
