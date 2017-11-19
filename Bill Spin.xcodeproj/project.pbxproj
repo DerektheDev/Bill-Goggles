@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F00B48A1FC2455D00D123C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00B4891FC2455D00D123C9 /* AppDelegate.swift */; };
+		1F00B48C1FC2455D00D123C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00B48B1FC2455D00D123C9 /* ViewController.swift */; };
+		1F00B48E1FC2455D00D123C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F00B48D1FC2455D00D123C9 /* Assets.xcassets */; };
+		1F00B4911FC2455D00D123C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F00B48F1FC2455D00D123C9 /* Main.storyboard */; };
+		1F00B49D1FC2455D00D123C9 /* Bill_SpinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00B49C1FC2455D00D123C9 /* Bill_SpinTests.swift */; };
+		1F00B4A81FC2455D00D123C9 /* Bill_SpinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00B4A71FC2455D00D123C9 /* Bill_SpinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F00B4991FC2455D00D123C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F00B47E1FC2455D00D123C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F00B4851FC2455D00D123C9;
+			remoteInfo = "Bill Spin";
+		};
+		1F00B4A41FC2455D00D123C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F00B47E1FC2455D00D123C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F00B4851FC2455D00D123C9;
+			remoteInfo = "Bill Spin";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F00B4861FC2455D00D123C9 /* Bill Spin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bill Spin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F00B4891FC2455D00D123C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F00B48B1FC2455D00D123C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F00B48D1FC2455D00D123C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F00B4901FC2455D00D123C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F00B4921FC2455D00D123C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F00B4931FC2455D00D123C9 /* Bill_Spin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bill_Spin.entitlements; sourceTree = "<group>"; };
+		1F00B4981FC2455D00D123C9 /* Bill SpinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bill SpinTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F00B49C1FC2455D00D123C9 /* Bill_SpinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill_SpinTests.swift; sourceTree = "<group>"; };
+		1F00B49E1FC2455D00D123C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F00B4A31FC2455D00D123C9 /* Bill SpinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bill SpinUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F00B4A71FC2455D00D123C9 /* Bill_SpinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill_SpinUITests.swift; sourceTree = "<group>"; };
+		1F00B4A91FC2455E00D123C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F00B4831FC2455D00D123C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F00B4951FC2455D00D123C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F00B4A01FC2455D00D123C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F00B47D1FC2455D00D123C9 = {
+			isa = PBXGroup;
+			children = (
+				1F00B4881FC2455D00D123C9 /* Bill Spin */,
+				1F00B49B1FC2455D00D123C9 /* Bill SpinTests */,
+				1F00B4A61FC2455D00D123C9 /* Bill SpinUITests */,
+				1F00B4871FC2455D00D123C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F00B4871FC2455D00D123C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F00B4861FC2455D00D123C9 /* Bill Spin.app */,
+				1F00B4981FC2455D00D123C9 /* Bill SpinTests.xctest */,
+				1F00B4A31FC2455D00D123C9 /* Bill SpinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F00B4881FC2455D00D123C9 /* Bill Spin */ = {
+			isa = PBXGroup;
+			children = (
+				1F00B4891FC2455D00D123C9 /* AppDelegate.swift */,
+				1F00B48B1FC2455D00D123C9 /* ViewController.swift */,
+				1F00B48D1FC2455D00D123C9 /* Assets.xcassets */,
+				1F00B48F1FC2455D00D123C9 /* Main.storyboard */,
+				1F00B4921FC2455D00D123C9 /* Info.plist */,
+				1F00B4931FC2455D00D123C9 /* Bill_Spin.entitlements */,
+			);
+			path = "Bill Spin";
+			sourceTree = "<group>";
+		};
+		1F00B49B1FC2455D00D123C9 /* Bill SpinTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F00B49C1FC2455D00D123C9 /* Bill_SpinTests.swift */,
+				1F00B49E1FC2455D00D123C9 /* Info.plist */,
+			);
+			path = "Bill SpinTests";
+			sourceTree = "<group>";
+		};
+		1F00B4A61FC2455D00D123C9 /* Bill SpinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F00B4A71FC2455D00D123C9 /* Bill_SpinUITests.swift */,
+				1F00B4A91FC2455E00D123C9 /* Info.plist */,
+			);
+			path = "Bill SpinUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F00B4851FC2455D00D123C9 /* Bill Spin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F00B4AC1FC2455E00D123C9 /* Build configuration list for PBXNativeTarget "Bill Spin" */;
+			buildPhases = (
+				1F00B4821FC2455D00D123C9 /* Sources */,
+				1F00B4831FC2455D00D123C9 /* Frameworks */,
+				1F00B4841FC2455D00D123C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bill Spin";
+			productName = "Bill Spin";
+			productReference = 1F00B4861FC2455D00D123C9 /* Bill Spin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F00B4971FC2455D00D123C9 /* Bill SpinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F00B4AF1FC2455E00D123C9 /* Build configuration list for PBXNativeTarget "Bill SpinTests" */;
+			buildPhases = (
+				1F00B4941FC2455D00D123C9 /* Sources */,
+				1F00B4951FC2455D00D123C9 /* Frameworks */,
+				1F00B4961FC2455D00D123C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F00B49A1FC2455D00D123C9 /* PBXTargetDependency */,
+			);
+			name = "Bill SpinTests";
+			productName = "Bill SpinTests";
+			productReference = 1F00B4981FC2455D00D123C9 /* Bill SpinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F00B4A21FC2455D00D123C9 /* Bill SpinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F00B4B21FC2455E00D123C9 /* Build configuration list for PBXNativeTarget "Bill SpinUITests" */;
+			buildPhases = (
+				1F00B49F1FC2455D00D123C9 /* Sources */,
+				1F00B4A01FC2455D00D123C9 /* Frameworks */,
+				1F00B4A11FC2455D00D123C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F00B4A51FC2455D00D123C9 /* PBXTargetDependency */,
+			);
+			name = "Bill SpinUITests";
+			productName = "Bill SpinUITests";
+			productReference = 1F00B4A31FC2455D00D123C9 /* Bill SpinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F00B47E1FC2455D00D123C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Mighty Ike";
+				TargetAttributes = {
+					1F00B4851FC2455D00D123C9 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					1F00B4971FC2455D00D123C9 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1F00B4851FC2455D00D123C9;
+					};
+					1F00B4A21FC2455D00D123C9 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1F00B4851FC2455D00D123C9;
+					};
+				};
+			};
+			buildConfigurationList = 1F00B4811FC2455D00D123C9 /* Build configuration list for PBXProject "Bill Spin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F00B47D1FC2455D00D123C9;
+			productRefGroup = 1F00B4871FC2455D00D123C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F00B4851FC2455D00D123C9 /* Bill Spin */,
+				1F00B4971FC2455D00D123C9 /* Bill SpinTests */,
+				1F00B4A21FC2455D00D123C9 /* Bill SpinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F00B4841FC2455D00D123C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F00B48E1FC2455D00D123C9 /* Assets.xcassets in Resources */,
+				1F00B4911FC2455D00D123C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F00B4961FC2455D00D123C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F00B4A11FC2455D00D123C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F00B4821FC2455D00D123C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F00B48C1FC2455D00D123C9 /* ViewController.swift in Sources */,
+				1F00B48A1FC2455D00D123C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F00B4941FC2455D00D123C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F00B49D1FC2455D00D123C9 /* Bill_SpinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F00B49F1FC2455D00D123C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F00B4A81FC2455D00D123C9 /* Bill_SpinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F00B49A1FC2455D00D123C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F00B4851FC2455D00D123C9 /* Bill Spin */;
+			targetProxy = 1F00B4991FC2455D00D123C9 /* PBXContainerItemProxy */;
+		};
+		1F00B4A51FC2455D00D123C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F00B4851FC2455D00D123C9 /* Bill Spin */;
+			targetProxy = 1F00B4A41FC2455D00D123C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F00B48F1FC2455D00D123C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F00B4901FC2455D00D123C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F00B4AA1FC2455E00D123C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F00B4AB1FC2455E00D123C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		1F00B4AD1FC2455E00D123C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Bill Spin/Bill_Spin.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UBHR2U6TCD;
+				INFOPLIST_FILE = "Bill Spin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mighty-ike.Bill-Spin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1F00B4AE1FC2455E00D123C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Bill Spin/Bill_Spin.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UBHR2U6TCD;
+				INFOPLIST_FILE = "Bill Spin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mighty-ike.Bill-Spin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		1F00B4B01FC2455E00D123C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UBHR2U6TCD;
+				INFOPLIST_FILE = "Bill SpinTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mighty-ike.Bill-SpinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bill Spin.app/Contents/MacOS/Bill Spin";
+			};
+			name = Debug;
+		};
+		1F00B4B11FC2455E00D123C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UBHR2U6TCD;
+				INFOPLIST_FILE = "Bill SpinTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mighty-ike.Bill-SpinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bill Spin.app/Contents/MacOS/Bill Spin";
+			};
+			name = Release;
+		};
+		1F00B4B31FC2455E00D123C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UBHR2U6TCD;
+				INFOPLIST_FILE = "Bill SpinUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mighty-ike.Bill-SpinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Bill Spin";
+			};
+			name = Debug;
+		};
+		1F00B4B41FC2455E00D123C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UBHR2U6TCD;
+				INFOPLIST_FILE = "Bill SpinUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mighty-ike.Bill-SpinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Bill Spin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F00B4811FC2455D00D123C9 /* Build configuration list for PBXProject "Bill Spin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F00B4AA1FC2455E00D123C9 /* Debug */,
+				1F00B4AB1FC2455E00D123C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F00B4AC1FC2455E00D123C9 /* Build configuration list for PBXNativeTarget "Bill Spin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F00B4AD1FC2455E00D123C9 /* Debug */,
+				1F00B4AE1FC2455E00D123C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F00B4AF1FC2455E00D123C9 /* Build configuration list for PBXNativeTarget "Bill SpinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F00B4B01FC2455E00D123C9 /* Debug */,
+				1F00B4B11FC2455E00D123C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F00B4B21FC2455E00D123C9 /* Build configuration list for PBXNativeTarget "Bill SpinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F00B4B31FC2455E00D123C9 /* Debug */,
+				1F00B4B41FC2455E00D123C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F00B47E1FC2455D00D123C9 /* Project object */;
+}
