@@ -10,23 +10,29 @@ import Cocoa
 import Charts
 
 class ViewController: NSViewController {
+  
+  let daysInMonth = 1...31
+  var dataPoints:[PieChartDataEntry] = []
 
   @IBOutlet weak var pieChart: PieChartView!
   
   override func viewDidLoad() {
     super.viewDidLoad()
-
+    
     pieChartUpdate()
   }
   
   func pieChartUpdate() {
-    let entry1 = PieChartDataEntry(value: Double(7), label: "#1")
-    let entry2 = PieChartDataEntry(value: Double(28), label: "#2")
-    let entry3 = PieChartDataEntry(value: Double(56), label: "#3")
-    let dataSet = PieChartDataSet(values: [entry1, entry2, entry3], label: "Widget Types")
+    
+    for day in daysInMonth {
+      let dataPoint = PieChartDataEntry(value: Double(1), label: "\(day)")
+      dataPoints.append(dataPoint)
+    }
+    
+    let dataSet = PieChartDataSet(values: dataPoints, label: "Bills this month")
     let data = PieChartData(dataSet: dataSet)
     pieChart.data = data
-    pieChart.chartDescription?.text = "Share of Widgets by Type"
+//    pieChart.chartDescription?.text = "Share of Widgets by Type"
   
     //All other additions to this function will go here
   
