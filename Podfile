@@ -5,6 +5,7 @@ target 'Bill Spin' do
   use_frameworks!
   pod 'Charts'
   # pod 'ChartsRealm'
+  pod 'CSV.swift'
 
   # target 'AppTests' do
   #   inherit! :search_paths
