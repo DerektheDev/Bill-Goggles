@@ -23,18 +23,18 @@ class ViewController: NSViewController {
   }
   
   func pieChartUpdate() {
-    
     for day in daysInMonth {
       let dataPoint = PieChartDataEntry(value: Double(1), label: "\(day)")
       dataPoints.append(dataPoint)
     }
     
-    let dataSet = PieChartDataSet(values: dataPoints, label: "Bills this month")
-    let data = PieChartData(dataSet: dataSet)
-    pieChart.data = data
+    let dataSet = PieChartDataSet(
+      values: dataPoints,
+      label: "Bills this month"
+    )
+    
+    pieChart.data = PieChartData(dataSet: dataSet)
 //    pieChart.chartDescription?.text = "Share of Widgets by Type"
-  
-    //All other additions to this function will go here
   
     //This must stay at end of function
     pieChart.notifyDataSetChanged()
